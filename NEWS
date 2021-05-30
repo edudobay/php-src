@@ -3,6 +3,8 @@ PHP                                                                        NEWS
 20 May 2021, PHP 8.0.7RC1
 
 - Core:
+  . Fixed bug #80929 (Method name corruption related to repeated calls to
+    call_user_func_array). (twosee)
   . Fixed bug #80960 (opendir() warning wrong info when failed on Windows).
     (cmb)
   . Fixed bug #67792 (HTTP Authorization schemes are treated as case-sensitive).
